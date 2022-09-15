@@ -22,7 +22,7 @@ export default function Calculator() {
   }
 
   function porcentagem() {
-    setNum(num / 100);
+    setNum(oldNum / 100 * num);
   }
 
   function negativo() {
